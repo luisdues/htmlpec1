@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #0a090a;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+body {
+  height: 100vh;
+  word-wrap: break-word;
+  color: #1f1f1f;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+main, article {
+  width: 100%;
+}
+
+nav {
+  z-index: 1;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  top: 0;
+  box-shadow: 0 4px 8px gray;
+}
+
+nav ul {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+nav li a {
+  color: purple;
+  font-weight: 800;
+}
+
+nav li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+nav li.active a {
+  color: gray;
+  font-weight: 800;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portada {
+  background-image: url("caratula.d897f3b7.jpg");
+}
+
+.portada h1 {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
