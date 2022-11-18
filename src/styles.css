@@ -84,7 +84,7 @@ nav li.active a {
   width: 100%;
 }
 .portada {
-  background-image: url("img/caratula.jpg");
+  background-image: url("../img/caratula.jpg");
 }
 .portada h1 {
   color: white;
