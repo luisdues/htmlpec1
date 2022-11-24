@@ -5,13 +5,13 @@
 }
 
 :root {
-  --color-fuente: #fff;
-  --color-fondo: #000;
+  --color-fuente: #000;
+  --color-fondo: #fff;
 }
 
 [tema="light"] {
-  --color-fuente: #000;
-  --color-fondo: #fff;
+  --color-fuente: #fff;
+  --color-fondo: #000;
 }
 
 h1 {
@@ -53,7 +53,7 @@ body {
 }
 
 a {
-  color: #00f;
+  color: soft weak;
   text-decoration: none;
 }
 
@@ -62,26 +62,18 @@ a:hover {
   text-decoration: none;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .video-fluid {
-    width: 100%;
+  width: 100%;
   padding-top: 56.25%;
   position: relative;
   overflow: hidden;
 }
 
 .video-fluid iframe {
-    left: 0;
-    bottom: 0;
-    right: 0;
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
+  inset: 0;
 }
 
 main, article {
@@ -89,10 +81,8 @@ main, article {
 }
 
 nav {
-  z-index: 1;
   margin-bottom: 20px;
   padding: 20px 0;
-  top: 0;
   box-shadow: 0 4px 8px gray;
 }
 
@@ -102,20 +92,42 @@ nav ul {
   list-style-type: none;
 }
 
-nav li a {
-  color: purple;
+nav li {
   text-align: center;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+.navwhite li a {
+  color: #fff;
+  font-weight: 800;
+}
+
+.navblack li a {
+  color: var(--color-fuente);
+  font-weight: 800;
+}
+
+nav li a {
+  color: #000;
   font-weight: 800;
 }
 
 nav li a:hover {
-  color: red;
+  color: gray;
   text-decoration: none;
 }
 
-nav li.active a {
-  color: gray;
-  font-weight: 800;
+@media (min-width: 992px) {
+  nav ul {
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+  nav ul li {
+    text-align: left;
+    margin-right: 30px;
+  }
 }
 
 .container {
@@ -140,6 +152,7 @@ footer {
   color: #fff;
   text-align: center;
   background-color: #000;
+  margin-top: 2em;
   font-size: 1.2rem;
   position: relative;
 }
@@ -299,9 +312,8 @@ a:hover {
 }
 
 img {
-  max-width: 1000px;
-  margin: auto;
-  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .carrusel {
