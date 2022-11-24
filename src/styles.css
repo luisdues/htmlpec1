@@ -56,6 +56,21 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+.video-fluid {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.video-fluid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+} 
 main {
   width: 100%;
 }
@@ -101,13 +116,6 @@ nav li.active a {
 }
 .portada h1 {
   color: white;
-}
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
 }
 /****************************
 Contenidos del footer
@@ -271,12 +279,28 @@ a:hover {
   text-decoration:none;
 }
 img {
+  max-width: 1000px;
   display: block;
   margin: auto;
 }
+
 .carrusel {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+dd {
+  margin-bottom: 1em;
+}
+#listaDetalle ul {
+  margin: 2em;
+  margin-bottom: 2em;
+}
+#listaDetalle li {
+ margin-left: 2em;
+ margin-bottom: 0.5em;
+}
+.videos {
   align-items: center;
 }

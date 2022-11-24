@@ -67,6 +67,23 @@ a:hover {
   height: auto;
 }
 
+.video-fluid {
+    width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-fluid iframe {
+    left: 0;
+    bottom: 0;
+    right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
 main, article {
   width: 100%;
 }
@@ -117,14 +134,6 @@ nav li.active a {
 
 .portada h1 {
   color: #fff;
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 footer {
@@ -290,6 +299,7 @@ a:hover {
 }
 
 img {
+  max-width: 1000px;
   margin: auto;
   display: block;
 }
@@ -299,6 +309,23 @@ img {
   align-items: center;
   margin-top: 30px;
   display: flex;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+#listaDetalle ul {
+  margin: 2em;
+}
+
+#listaDetalle li {
+  margin-bottom: .5em;
+  margin-left: 2em;
+}
+
+.videos {
+  align-items: center;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
