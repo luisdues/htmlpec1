@@ -103,14 +103,7 @@ nav li a:hover {
   padding-left: 15px;
   width: 100%;
 }
-.portada {
-  background-image: url("../img/caratula.jpg");
-  background-size:cover;
-  background-position: center center;
-}
-.portada h1 {
-  color: white;
-}
+
 /********footer***********/
 footer {
   background-color: black;
@@ -142,12 +135,6 @@ main {
   width: 100%;
   background-color: var(--bg-main);
 }
-section {
-  padding: 50px 0;
-}
-header {
-  padding: 30px 0 10px 0;
-}
 footer {
   padding: 30px;
 }
@@ -157,6 +144,15 @@ footer {
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+}
+/**************INDEX********************/
+.portada {
+  background-image: url("../img/caratula.jpg");
+  background-size:cover;
+  background-position: center center;
+}
+.portada h1 {
+  color: white;
 }
 /**************Botón de cambio de tema***************/
 
