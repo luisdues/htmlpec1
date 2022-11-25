@@ -35,7 +35,6 @@ module.exports = function (grunt) {
           'dist/Imagen2.png': 'img/integrantes.jpg',
       }
       }
-      }
     }
   });
  
