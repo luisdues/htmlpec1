@@ -50,7 +50,7 @@
 41C:\htmlpec1\node_modules\has-flag\license133131009479950862 0
 49C:\htmlpec1\node_modules\promise-inflight\LICENSE133137557845137338 0
 73C:\htmlpec1\node_modules\webpack-cli\node_modules\to-regex-range\index.js133137557846757333 0
-33C:\htmlpec1\src\presentacion.html133137896122728579 0
+33C:\htmlpec1\src\presentacion.html133138528100790224 0
 79C:\htmlpec1\node_modules\grunt-image\node_modules\svgo\plugins\removeDoctype.js133136947226758640 0
 74C:\htmlpec1\node_modules\@parcel\core\test\fixtures\custom-format-mismatch133131009502260874 1
 38C:\htmlpec1\node_modules\shebang-regex133131009479560913 1
@@ -64,7 +64,7 @@
 34C:\htmlpec1\node_modules\jest-diff133131014979686115 1
 56C:\htmlpec1\node_modules\lmdb\dependencies\lz4\lib\lz4.c133131009491320921 0
 55C:\htmlpec1\node_modules\browserify-cipher\package.json133137557837327386 0
-16C:\htmlpec1\dist133138525168089928 1
+16C:\htmlpec1\dist133138528749214370 1
 43C:\htmlpec1\node_modules\async\applyEach.js133136947217163431 0
 47C:\htmlpec1\node_modules\lodash\fp\upperCase.js133136947243759490 0
 49C:\htmlpec1\node_modules\weak-lru-cache\README.md133131009484281033 0
@@ -192,7 +192,7 @@
 104C:\htmlpec1\node_modules\watchpack-chokidar2\node_modules\anymatch\node_modules\normalize-path\README.md133137557841037316 0
 34C:\htmlpec1\node_modules\@sinclair133131014954406081 1
 69C:\htmlpec1\node_modules\lmdb\node_modules\node-addon-api\common.gypi133131009478820871 0
-26C:\htmlpec1\src\styles.css133138520123643671 0
+26C:\htmlpec1\src\styles.css133138528528255906 0
 66C:\htmlpec1\node_modules\cosmiconfig\dist\getPropertyByPath.js.map133131009489230900 0
 49C:\htmlpec1\node_modules\pinkie-promise\readme.md133136947205588508 0
 37C:\htmlpec1\node_modules\path-dirname133137557845387298 1
@@ -7551,7 +7551,7 @@
 61C:\htmlpec1\node_modules\@sinclair\typebox\errors\errors.d.ts133131014984376054 0
 59C:\htmlpec1\node_modules\caniuse-lite\data\features\spdy.js133131009516040868 0
 72C:\htmlpec1\node_modules\@swc\helpers\lib\_initializer_warning_helper.js133131009493910928 0
-38C:\htmlpec1\dist\index.0641b553.js.map133138525168079982 0
+38C:\htmlpec1\dist\index.0641b553.js.map133138528749204353 0
 43C:\htmlpec1\node_modules\ripemd160\index.js133137557843597297 0
 41C:\htmlpec1\node_modules\async\doUntil.js133136947226448646 0
 47C:\htmlpec1\node_modules\ripemd160\package.json133137557837287291 0
@@ -7958,7 +7958,7 @@
 60C:\htmlpec1\node_modules\enhanced-resolve\lib\ParsePlugin.js133137557862248532 0
 58C:\htmlpec1\node_modules\pumpify\node_modules\pump\LICENSE133137557851583037 0
 63C:\htmlpec1\node_modules\pumpify\node_modules\pump\test-node.js133137557855313048 0
-34C:\htmlpec1\dist\presentacion.html133138525167050077 0
+34C:\htmlpec1\dist\presentacion.html133138528747404616 0
 63C:\htmlpec1\node_modules\pumpify\node_modules\pump\package.json133137557843777356 0
 46C:\htmlpec1\node_modules\lodash\fp\property.js133136947240819003 0
 62C:\htmlpec1\node_modules\es-abstract\2022\Number\bitwiseXOR.js133131009499720919 0
@@ -8880,7 +8880,7 @@
 48C:\htmlpec1\node_modules\nullthrows\package.json133131009476790840 0
 46C:\htmlpec1\node_modules\es-abstract\es2015.js133131009505560946 0
 62C:\htmlpec1\node_modules\assert\node_modules\util\package.json133137557838057304 0
-35C:\htmlpec1\dist\index.4d663569.css133138525167099991 0
+35C:\htmlpec1\dist\index.4d663569.css133138528748694368 0
 76C:\htmlpec1\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.1133131009488610884 0
 49C:\htmlpec1\node_modules\lodash\fp\findLastKey.js133136947236688989 0
 42C:\htmlpec1\node_modules\nth-check\LICENSE133131009476790840 0
@@ -9177,7 +9177,7 @@
 51C:\htmlpec1\node_modules\node-addon-api\except.gypi133131009479620888 0
 48C:\htmlpec1\node_modules\node-addon-api\index.js133131009487510980 0
 50C:\htmlpec1\node_modules\node-addon-api\LICENSE.md133131009488740987 0
-37C:\htmlpec1\dist\imagen5.abc1d48d.jpg133138525167490041 0
+37C:\htmlpec1\dist\imagen5.abc1d48d.jpg133138528748004399 0
 46C:\htmlpec1\node_modules\node-addon-api\napi.h133131009486250874 0
 55C:\htmlpec1\node_modules\css-what\lib\es\stringify.d.ts133131009489810841 0
 43C:\htmlpec1\node_modules\neo-async\queue.js133137557864948497 0
@@ -9538,7 +9538,7 @@
 47C:\htmlpec1\node_modules\mimic-response\license133136947209811009 0
 49C:\htmlpec1\node_modules\mimic-response\readme.md133136947213102299 0
 56C:\htmlpec1\node_modules\caniuse-lite\data\regions\CR.js133131009499740859 0
-41C:\htmlpec1\dist\integrantes.1ee30a08.jpg133138525167880068 0
+41C:\htmlpec1\dist\integrantes.1ee30a08.jpg133138528748114386 0
 47C:\htmlpec1\node_modules\coa\node_modules\chalk133136947210686960 1
 54C:\htmlpec1\node_modules\istanbul-lib-report\README.md133131014979636410 0
 46C:\htmlpec1\node_modules\mimic-fn\package.json133131014965456091 0
@@ -13624,7 +13624,7 @@
 66C:\htmlpec1\node_modules\bin-build\node_modules\get-stream\license133136947220338687 0
 49C:\htmlpec1\node_modules\es-abstract\2020\Type.js133131009530880872 0
 62C:\htmlpec1\node_modules\es-abstract\2020\UTF16DecodeString.js133131009531580840 0
-27C:\htmlpec1\dist\index.html133138525167849960 0
+27C:\htmlpec1\dist\index.html133138528749194367 0
 58C:\htmlpec1\node_modules\es-abstract\2020\UTF16Encoding.js133131009531740817 0
 79C:\htmlpec1\node_modules\es-abstract\2020\ValidateAndApplyPropertyDescriptor.js133131009532010859 0
 52C:\htmlpec1\node_modules\es-abstract\2020\WeekDay.js133131009532210828 0
@@ -15547,7 +15547,7 @@
 41C:\htmlpec1\node_modules\braces\README.md133131014973846099 0
 48C:\htmlpec1\node_modules\braces\lib\constants.js133131014975986201 0
 45C:\htmlpec1\node_modules\braces\lib\expand.js133131014976606064 0
-37C:\htmlpec1\dist\imagen7.c04a5827.jpg133138525167709957 0
+37C:\htmlpec1\dist\imagen7.c04a5827.jpg133138528749154364 0
 43C:\htmlpec1\node_modules\bin-check\index.js133136947206619247 0
 44C:\htmlpec1\node_modules\braces\lib\parse.js133131014977316043 0
 44C:\htmlpec1\node_modules\braces\lib\utils.js133131014978866022 0
@@ -17157,7 +17157,7 @@
 82C:\htmlpec1\node_modules\@babel\types\lib\validators\react\isReactComponent.js.map133131014990986086 0
 71C:\htmlpec1\node_modules\@babel\types\lib\validators\generated\index.js133131014989896081 0
 75C:\htmlpec1\node_modules\@babel\types\lib\validators\generated\index.js.map133131014990076128 0
-37C:\htmlpec1\dist\imagen9.653b2028.jpg133138525167709957 0
+37C:\htmlpec1\dist\imagen9.653b2028.jpg133138528748014402 0
 58C:\htmlpec1\node_modules\@babel\types\lib\utils\inherit.js133131014989556088 0
 46C:\htmlpec1\node_modules\@babel\code-frame\lib133132667467320599 1
 67C:\htmlpec1\node_modules\@babel\types\lib\utils\shallowEqual.js.map133131014989796100 0
@@ -17693,12 +17693,12 @@
 27C:\htmlpec1\img\imagen9.jpg133137834817158220 0
 31C:\htmlpec1\img\integrantes.jpg133137782066976905 0
 24C:\htmlpec1\img\phil.jpg133137625198120735 0
-38C:\htmlpec1\dist\caratula.3610e55d.jpg133138525167110037 0
-31C:\htmlpec1\dist\categoria.html133138525167689989 0
-29C:\htmlpec1\dist\detalle.html133138525167099991 0
-29C:\htmlpec1\dist\enlaces.html133138525167099991 0
-37C:\htmlpec1\dist\GRACIAS.22a44480.jpg133138525167659985 0
-37C:\htmlpec1\dist\imagen6.8e34d432.jpg133138525167180001 0
-37C:\htmlpec1\dist\imagen8.4cfc702b.jpg133138525167289982 0
-34C:\htmlpec1\dist\index.0641b553.js133138525167150071 0
-39C:\htmlpec1\dist\index.4d663569.css.map133138525168079982 0
+38C:\htmlpec1\dist\caratula.3610e55d.jpg133138528747944425 0
+31C:\htmlpec1\dist\categoria.html133138528748694368 0
+29C:\htmlpec1\dist\detalle.html133138528748694368 0
+29C:\htmlpec1\dist\enlaces.html133138528748694368 0
+37C:\htmlpec1\dist\GRACIAS.22a44480.jpg133138528748004399 0
+37C:\htmlpec1\dist\imagen6.8e34d432.jpg133138528747964452 0
+37C:\htmlpec1\dist\imagen8.4cfc702b.jpg133138528749094402 0
+34C:\htmlpec1\dist\index.0641b553.js133138528749094402 0
+39C:\htmlpec1\dist\index.4d663569.css.map133138528748774482 0
