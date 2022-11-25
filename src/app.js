@@ -22,8 +22,18 @@ module.exports = function (grunt) {
         },
         files: {
           'dist/caratula.png': 'img/caratula.png',
-          'dist/Imagen1.png': 'img/Imagen1.png',
-          'dist/Imagen2.png': 'img/Imagen2.png',
+          'dist/Imagen1.png': 'img/Imagen1.jpg',
+          'dist/Imagen2.png': 'img/Imagen2.jpg',
+          'dist/Imagen2.png': 'img/imagen3.jpg',
+          'dist/Imagen2.png': 'img/imagen4.jpg',
+          'dist/Imagen2.png': 'img/imagen5.jpg',
+          'dist/Imagen2.png': 'img/imagen6.jpg',
+          'dist/Imagen2.png': 'img/imagen7.jpg',
+          'dist/Imagen2.png': 'img/imagen8.jpg',
+          'dist/Imagen2.png': 'img/imagen9.jpg',
+          'dist/Imagen2.png': 'img/GRACIAS.jpg',
+          'dist/Imagen2.png': 'img/integrantes.jpg',
+      }
       }
       }
     }
