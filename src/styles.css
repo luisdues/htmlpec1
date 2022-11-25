@@ -172,9 +172,7 @@ footer ul {
       padding-left: 0;
   }
 }
-/****************************
-Contenedores del sitio
-*****************************/
+/********Contenedores del sitio***************/
 main {
   width: 100%;
   background-color: var(--bg-main);
@@ -215,7 +213,7 @@ footer {
     max-width: 1140px;
   }
 }
-/*Botón de cambio de tema*/
+/**************Botón de cambio de tema***************/
 
 #switch {
     position: relative;
