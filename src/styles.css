@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*HEADER*/
+header img {
+  width: auto;
+  display: block;
+  margin: auto;
+}
 :root {
   --color-fuente: #000;
   --color-fondo: #ffffff;
@@ -105,6 +111,11 @@ nav li a:hover {
 }
 
 /********footer***********/
+footer img {
+  width: auto;
+  background-color: white;
+  fill: black;
+}
 footer {
   background-color: black;
   color: white;
@@ -113,6 +124,7 @@ footer {
   text-align: center;
   margin-top: 2em;
 }
+
 footer p {
   font-size: 1.2rem;
   margin-bottom: 0;
@@ -146,6 +158,13 @@ footer {
   width: 100%;
 }
 /**************INDEX********************/
+.portada header img {
+  width: auto;
+  background-color: white;
+}
+.portada header {
+  background-color: black;
+}
 .portada {
   background-image: url("../img/caratula.jpg");
   background-size:cover;
@@ -154,6 +173,59 @@ footer {
 .portada h1 {
   color: white;
 }
+.coloranimacion {
+  animation: cambiarColor 5s linear infinite;
+}
+@keyframes cambiarColor {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}
+/**************CATEGORIAS********************/
+
+.artistas {
+  clip-path: circle(20% at 32% 45%);
+  display: inline-block;
+}
+.artistascont {
+  display: flex;
+  align-items: center;
+}
+/**************PRESENTACION********************/
+svg {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.miCirculo {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
 /**************Botón de cambio de tema***************/
 
 #switch {
@@ -279,6 +351,9 @@ dd {
   }
 }
 @media (min-width: 576px) {
+  .clipindex {
+    clip-path: inset(10px 20px 30px 40px);
+  }
   .container {
     max-width: 540px;
   }
