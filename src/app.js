@@ -40,11 +40,6 @@ module.exports = function (grunt) {
  
   grunt.loadNpmTasks('grunt-image');
 };
-console.log('Hello world!');
-function suma(a, b) {
-    return a + b;
-  }
-  module.exports = suma;
   const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
             function cambiaTema(ev){
                 if(ev.target.checked){
