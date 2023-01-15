@@ -5,7 +5,7 @@
 }
 /*HEADER*/
 header img {
-  width: auto;
+  width: 25%;
   display: block;
   margin: auto;
 }
@@ -112,7 +112,7 @@ nav li a:hover {
 
 /********footer***********/
 footer img {
-  width: auto;
+  width: 25%;
   background-color: white;
   fill: black;
 }
@@ -159,14 +159,13 @@ footer {
 }
 /**************INDEX********************/
 .portada header img {
-  width: auto;
   background-color: white;
 }
 .portada header {
   background-color: black;
 }
 .portada {
-  background-image: url("../img/caratula.jpg");
+  background-image: url("../img/caratula.webp");
   background-size:cover;
   background-position: center center;
 }
