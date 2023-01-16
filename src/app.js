@@ -41,11 +41,20 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-image');
 };
   const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
-            function cambiaTema(ev){
-                if(ev.target.checked){
-                    document.documentElement.setAttribute('tema', 'light');
-                } else {
-                    document.documentElement.setAttribute('tema', 'dark');
-                }
-            }
-            colorSwitch.addEventListener('change', cambiaTema);
+
+if (colorSwitch) {
+  function cambiaTema(ev) {
+    if (ev.target.checked) {
+      document.documentElement.setAttribute('tema', 'light');
+    } else {
+      document.documentElement.setAttribute('tema', 'dark');
+    }
+  }
+  colorSwitch.addEventListener('change', cambiaTema);
+  colorSwitch.setAttribute("id", "color-switch");
+  const label = document.createElement("label");
+  label.setAttribute("for", "color-switch");
+  label.innerHTML = "Cambiar tema";
+  const container = document.querySelector("#switch")
+  container.appendChild(label);
+}
