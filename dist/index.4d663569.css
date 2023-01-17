@@ -222,6 +222,7 @@ footer {
 .artistas {
   clip-path: circle(20% at 32% 45%);
   display: inline-block;
+  overflow: hidden;
 }
 
 .artistascont {
