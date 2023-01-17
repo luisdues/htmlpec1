@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"7Aums":[function(require,module,exports) {
+})({"34DfE":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "fe4256060641b553";
+module.bundle.HMR_BUNDLE_ID = "dff6bb0862c4194b";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -605,18 +605,21 @@ module.exports = function(grunt) {
     });
     grunt.loadNpmTasks("grunt-image");
 };
-console.log("Hello world!");
-function suma(a, b) {
-    return a + b;
-}
-module.exports = suma;
 const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
-function cambiaTema(ev) {
-    if (ev.target.checked) document.documentElement.setAttribute("tema", "light");
-    else document.documentElement.setAttribute("tema", "dark");
+if (colorSwitch) {
+    function cambiaTema(ev) {
+        if (ev.target.checked) document.documentElement.setAttribute("tema", "light");
+        else document.documentElement.setAttribute("tema", "dark");
+    }
+    colorSwitch.addEventListener("change", cambiaTema);
+    colorSwitch.setAttribute("id", "color-switch");
+    const label = document.createElement("label");
+    label.setAttribute("for", "color-switch");
+    label.innerHTML = "Cambiar tema";
+    const container = document.querySelector("#switch");
+    container.appendChild(label);
 }
-colorSwitch.addEventListener("change", cambiaTema);
 
-},{}]},["7Aums","bNKaB"], "bNKaB", "parcelRequire12f9")
+},{}]},["34DfE","bNKaB"], "bNKaB", "parcelRequire12f9")
 
-//# sourceMappingURL=index.0641b553.js.map
+//# sourceMappingURL=index.62c4194b.js.map

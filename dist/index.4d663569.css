@@ -184,7 +184,7 @@ footer {
 }
 
 .portada {
-  background-image: url("caratula.3610e55d.jpg");
+  background-image: url("caratula.19db34f4.webp");
   background-position: center;
   background-size: cover;
 }
@@ -321,6 +321,7 @@ a:hover {
 }
 
 img {
+  aspect-ratio: attr(width) / attr(height);
   width: 100%;
   height: auto;
 }
