@@ -1,3 +1,4 @@
+import '@justinribeiro/lite-youtube';
 module.exports = function (grunt) {
   grunt.initConfig({
     image: {

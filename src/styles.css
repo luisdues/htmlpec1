@@ -397,10 +397,6 @@ dd {
 	border-left-color: red;
 }
 
-.lite-youtube-fallback:hover::before {
-	border-left-color: #fff;
-}
-
 .lite-youtube-fallback:focus {
 	outline: 2px solid red;
 }
